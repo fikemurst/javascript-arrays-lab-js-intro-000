@@ -17,6 +17,6 @@ function destructivelyRemoveLastKitten(){
 }
 
 function appendKitten(){
-  [...kittens, "Broom"]
-  kittens
+  return kittens = [...kittens, "Broom"]
+
 }
