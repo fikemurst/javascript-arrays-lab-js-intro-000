@@ -15,3 +15,8 @@ function destructivelyRemoveFirstKitten(){
 function destructivelyRemoveLastKitten(){
   return kittens.pop()
 }
+
+function appendKitten(){
+  [...'Garfield', "Broom"]
+  return kittens
+}
